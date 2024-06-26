@@ -16,9 +16,11 @@
 
 <!-- Area d'inserimento delle cose da fare -->
         <div class="text">
-            <input type="text" placeholder="inserisci qui cosa devi fare" v-model="newTask">
+            <input type="text" placeholder="inserisci qui cosa devi fare" v-model="newTask" @keyup.enter="addTask">
             <button @click="addTask"> Aggiungi Azione</button>
         </div>
+
+        <span class="error" v-if="inputError">Devi inserire almeno 5 caratteri!</span>
 
 <!-- Area lista cose da fare  -->
          <div class="list">

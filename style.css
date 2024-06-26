@@ -37,3 +37,16 @@ ul{
     list-style-type: none;
 }
 
+.error{
+    color: red;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.done{
+    text-decoration: line-through
+}
+
+
+
