@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    width: 400px;
+    height: 50px;
+    background-color: grey;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    min-height: 200px;
+    width: 400px;
+    background-color: greenyellow;
+    border: solid black 2px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
