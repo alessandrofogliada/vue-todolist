@@ -35,6 +35,10 @@ createApp ({
     methods: {
         addTask() {
             this.listToDo.unshift(this.newTask)
+        },
+
+        removeTask(index){
+            this.listToDo.splice(index, 1);
         }
     },
 }).mount('#app')

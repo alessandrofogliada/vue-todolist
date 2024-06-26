@@ -25,7 +25,7 @@
             <ul>
                 <li v-for=" (task, indice) in listToDo" :key='indice'>
                     {{task.text}}
-                    <i class="fa-solid fa-x"></i>
+                    <i class="fa-solid fa-x" @click="removeTask(indice)"></i>
                 </li>
             </ul>
          </div>
